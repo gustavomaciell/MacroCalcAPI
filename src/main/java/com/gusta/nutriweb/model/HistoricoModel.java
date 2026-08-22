@@ -2,6 +2,7 @@ package com.gusta.nutriweb.model;
 
 import jakarta.persistence.*;
 
+@Entity
 public class HistoricoModel {
 
     @Column(name = "id")
