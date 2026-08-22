@@ -19,7 +19,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name = "users")
+@Table(name = "tb_usuarios")
 @Entity
 public class UsuarioModel {
 
@@ -61,6 +61,6 @@ public class UsuarioModel {
     private NivelAtividadeEnum nivelAtividade;
 
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<HistoricoModel> historico = new ArrayList<>();
+    private List<InformacoesModel> historico = new ArrayList<>();
 
 }
