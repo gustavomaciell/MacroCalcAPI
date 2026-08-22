@@ -1,8 +1,8 @@
 package com.gusta.nutriweb.model;
 
-import com.gusta.nutriweb.Enums.GeneroEnum;
-import com.gusta.nutriweb.Enums.NivelAtividadeEnum;
-import com.gusta.nutriweb.Enums.ObjetivoEnum;
+import com.gusta.nutriweb.enums.GeneroEnum;
+import com.gusta.nutriweb.enums.NivelAtividadeEnum;
+import com.gusta.nutriweb.enums.ObjetivoEnum;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
