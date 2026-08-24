@@ -47,7 +47,7 @@ public class AlimentoService {
                 .filter(a -> a.getId().equals(id))
                 .findFirst()
                 .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());gi
+                .orElse(ResponseEntity.notFound().build());
 
     }
 }
